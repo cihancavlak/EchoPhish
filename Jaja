@@ -1,0 +1,6 @@
+pkg update -y
+pkg install -y git python python-pip
+git clone https://github.com/perviz19/EchoPhish.git
+cd EchoPhish
+chmod +x EchoPhish
+./EchoPhish
